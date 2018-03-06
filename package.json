@@ -1,0 +1,53 @@
+{
+  "name": "eslint-config-software-improvement-group",
+  "version": "0.0.0-development",
+  "description":
+    "ESLint configuration for Software Improvement Group's (SIG) 10 guidelines for building maintainable software.",
+  "files": ["index.js", "loose.js"],
+  "repository": {
+    "type": "git",
+    "url":
+      "https://github.com/atelljohannsmothers/eslint-config-software-improvement-group.git"
+  },
+  "keywords": [
+    "eslint",
+    "config",
+    "software",
+    "improvement",
+    "group",
+    "eslintconfig",
+    "sig",
+    "maintainable",
+    "maintainability"
+  ],
+  "author": "Anthony Telljohann-Smothers",
+  "license": "MIT",
+  "bugs": {
+    "url":
+      "https://github.com/atelljohannsmothers/eslint-config-software-improvement-group/issues"
+  },
+  "homepage":
+    "https://github.com/atelljohannsmothers/eslint-config-software-improvement-group#readme",
+  "peerDependencies": {
+    "eslint": ">= 3"
+  },
+  "scripts": {
+    "semantic-release": "semantic-release",
+    "travis-deploy-once": "travis-deploy-once"
+  },
+  "publishConfig": {
+    "access": "restricted"
+  },
+  "devDependencies": {
+    "commitizen": "^2.9.6",
+    "cz-conventional-changelog": "^2.1.0",
+    "prettier": "1.11.1",
+    "semantic-release": "^12.4.1",
+    "travis-deploy-once": "^4.3.4"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  }
+}
