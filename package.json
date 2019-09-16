@@ -1,17 +1,16 @@
 {
   "name": "eslint-config-software-improvement-group",
   "version": "0.0.0-development",
-  "description":
-    "ESLint configuration for Software Improvement Group's (SIG) 10 guidelines for building maintainable software.",
+  "description": "ESLint configuration for Software Improvement Group's (SIG) 10 guidelines for building maintainable software.",
   "files": [
     "rules/",
     "index.js",
-    "loose.js"
+    "loose.js",
+    "@typescript-eslint.js"
   ],
   "repository": {
     "type": "git",
-    "url":
-      "https://github.com/anthony-telljohann/eslint-config-software-improvement-group.git"
+    "url": "https://github.com/anthony-telljohann/eslint-config-software-improvement-group.git"
   },
   "keywords": [
     "eslint",
@@ -27,13 +26,11 @@
   "author": "Anthony Telljohann",
   "license": "MIT",
   "bugs": {
-    "url":
-      "https://github.com/anthony-telljohann/eslint-config-software-improvement-group/issues"
+    "url": "https://github.com/anthony-telljohann/eslint-config-software-improvement-group/issues"
   },
-  "homepage":
-    "https://github.com/anthony-telljohann/eslint-config-software-improvement-group#readme",
+  "homepage": "https://github.com/anthony-telljohann/eslint-config-software-improvement-group#readme",
   "peerDependencies": {
-    "eslint": ">= 3"
+    "eslint": "^5.0.0 || ^6.0.0"
   },
   "scripts": {
     "test": "echo \"Tests do not exist.\"",
