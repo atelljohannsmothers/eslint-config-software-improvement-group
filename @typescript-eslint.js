@@ -29,7 +29,10 @@ module.exports = {
         ignore: [],
         ignoreArrayIndexes: false,
         enforceConst: true,
-        detectObjects: true
+        detectObjects: true,
+        ignoreEnums: true,
+        ignoreNumericLiteralTypes: true,
+        ignoreReadonlyClassProperties: true
       }
     ]
   }
