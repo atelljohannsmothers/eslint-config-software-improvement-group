@@ -3,7 +3,7 @@ cache:
   yarn: true
 notifications:
   email: false
-node_js: node
+node_js: lts/*
 before_install:
 - sudo apt-key adv --fetch-keys http://dl.yarnpkg.com/debian/pubkey.gpg
 - echo "deb http://dl.yarnpkg.com/debian/ stable main" | sudo tee /etc/apt/sources.list.d/yarn.list
