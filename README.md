@@ -12,19 +12,19 @@ npm i eslint-config-software-improvement-group -D
 
 ## Usage
 
-To error on maintainability guidelines, extend `software-improvement-group`. Recommended for new code.
-
-```json
-{
-  "extends": ["software-improvement-group"]
-}
-```
-
 For use with `@typescript-eslint`, extend `software-improvement-group/@typescript-eslint`. Recommended for new typescript code.
 
 ```json
 {
   "extends": ["software-improvement-group/@typescript-eslint"]
+}
+```
+
+To error on maintainability guidelines, extend `software-improvement-group`. Recommended for new code.
+
+```json
+{
+  "extends": ["software-improvement-group"]
 }
 ```
 
