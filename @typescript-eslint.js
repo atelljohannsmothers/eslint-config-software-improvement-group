@@ -27,7 +27,7 @@ module.exports = {
       "error",
       {
         ignore: [],
-        ignoreArrayIndexes: false,
+        ignoreArrayIndexes: true,
         enforceConst: true,
         detectObjects: true,
         ignoreEnums: true,
