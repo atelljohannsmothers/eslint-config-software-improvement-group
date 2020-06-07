@@ -63,7 +63,7 @@ module.exports = {
       "off",
       {
         ignore: [],
-        ignoreArrayIndexes: false,
+        ignoreArrayIndexes: true,
         enforceConst: true,
         detectObjects: true
       }
