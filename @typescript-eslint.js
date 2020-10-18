@@ -11,8 +11,8 @@ module.exports = {
     "@typescript-eslint/no-empty-function": [
       "error",
       {
-        allow: []
-      }
+        allow: [],
+      },
     ],
     "@typescript-eslint/no-unused-vars": [
       "error",
@@ -20,8 +20,8 @@ module.exports = {
         vars: "all",
         args: "all",
         ignoreRestSiblings: false,
-        caughtErrors: "none"
-      }
+        caughtErrors: "none",
+      },
     ],
     "@typescript-eslint/no-magic-numbers": [
       "error",
@@ -32,8 +32,8 @@ module.exports = {
         detectObjects: true,
         ignoreEnums: true,
         ignoreNumericLiteralTypes: true,
-        ignoreReadonlyClassProperties: true
-      }
-    ]
-  }
+        ignoreReadonlyClassProperties: true,
+      },
+    ],
+  },
 };
