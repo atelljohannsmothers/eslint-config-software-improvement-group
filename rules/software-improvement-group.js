@@ -8,47 +8,47 @@ module.exports = {
     "max-statements": [
       "off",
       {
-        max: MAXIMUM_STATEMENTS
-      }
+        max: MAXIMUM_STATEMENTS,
+      },
     ],
     "max-statements-per-line": [
       "off",
       {
-        max: MAXIMUM_STATEMENTS_PER_LINE
-      }
+        max: MAXIMUM_STATEMENTS_PER_LINE,
+      },
     ],
     complexity: [
       "off",
       {
-        max: MAXIMUM_COMPLEXITY
-      }
+        max: MAXIMUM_COMPLEXITY,
+      },
     ],
     "max-params": [
       "off",
       {
-        max: MAXIMUM_PARAMETERS
-      }
+        max: MAXIMUM_PARAMETERS,
+      },
     ],
     "no-empty": [
       "off",
       {
-        allowEmptyCatch: false
-      }
+        allowEmptyCatch: false,
+      },
     ],
     "no-extra-semi": "off",
     "no-empty-function": [
       "off",
       {
-        allow: []
-      }
+        allow: [],
+      },
     ],
     "no-unused-expressions": [
       "off",
       {
         allowShortCircuit: false,
         allowTernary: false,
-        allowTaggedTemplates: false
-      }
+        allowTaggedTemplates: false,
+      },
     ],
     "no-unused-vars": [
       "off",
@@ -56,8 +56,8 @@ module.exports = {
         vars: "all",
         args: "all",
         ignoreRestSiblings: false,
-        caughtErrors: "none"
-      }
+        caughtErrors: "none",
+      },
     ],
     "no-magic-numbers": [
       "off",
@@ -65,8 +65,8 @@ module.exports = {
         ignore: [0, 1],
         ignoreArrayIndexes: false,
         enforceConst: true,
-        detectObjects: true
-      }
-    ]
-  }
+        detectObjects: true,
+      },
+    ],
+  },
 };

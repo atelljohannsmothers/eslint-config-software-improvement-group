@@ -10,6 +10,6 @@ module.exports = {
     "no-empty-function": "warn",
     "no-unused-expressions": "warn",
     "no-unused-vars": "warn",
-    "no-magic-numbers": "warn"
-  }
+    "no-magic-numbers": "warn",
+  },
 };
