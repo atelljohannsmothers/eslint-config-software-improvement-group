@@ -1,3 +1,5 @@
+adding this commit to create a new branch in git
+
 # eslint-config-software-improvement-group
 
 [![Greenkeeper badge](https://badges.greenkeeper.io/atelljohannsmothers/eslint-config-software-improvement-group.svg)](https://greenkeeper.io/)
